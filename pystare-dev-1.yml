@@ -1,0 +1,61 @@
+name: pystare-dev-1
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+# initial
+#  - stare # Not in MacOS Conda-Forge
+  - ipykernel
+  - ipython
+  - ipython_genutils
+  - ipywidgets
+# Dev dependencies
+  - boto3
+  - cmake
+  - dask
+  - distributed
+  - emacs
+  - swig
+  - pytest
+  - sphinx
+  - myst-parser
+  - sphinx-automodapi
+  - sphinx-markdown-tables
+  - nbsphinx
+  - numpydoc
+  - pydata-sphinx-theme
+# Geo dependencies
+  - cartopy
+  - matplotlib
+  - meshplot
+  - geopandas
+  - h5py
+  - hdfeos2
+  - hdfeos5
+  - netcdf4
+  - pandas
+  - proj
+  - pyaml
+  - pyerfa
+  - pyhdf
+  - shapely
+  - xarray
+# Suspicious
+  - rasterio
+  - regionmask
+  - requests
+  - scipy
+# Dependencies found later
+#  - cftime # already installed
+  - pytables
+# pip
+  - pip
+  - pip:
+    - fiona
+    - sortedcontainers
+prefix: /Users/mrilee/opt/anaconda3/envs/pystare-dev-1
+# Manually load the following
+# pystare
+# pystareplotlib
+# 
+

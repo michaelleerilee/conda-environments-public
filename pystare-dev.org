@@ -1,0 +1,13 @@
+
+
+Installing a development environment where we manually install various pystare stuff.
+
+conda env remove -n pystare-dev-1; conda env create -f pystare-dev-1.yml
+
+conda env create -f pystare-dev-1.yml
+
+export DYLD_LIBRARY_PATH=/Users/mrilee/opt/local/lib/
+
+pip install -e pystare
+pip install -e starepandas-2
+

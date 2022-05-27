@@ -1,0 +1,5 @@
+name: ccl-new.yml
+channels:
+  - conda-forge
+  - defaults
+prefix: /Users/mrilee/opt/anaconda3/envs/ccl-new.yml

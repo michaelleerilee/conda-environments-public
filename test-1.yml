@@ -1,0 +1,5 @@
+name: test-1
+channels:
+  - conda-forge
+  - defaults
+prefix: /Users/mrilee/opt/anaconda3/envs/test-1
